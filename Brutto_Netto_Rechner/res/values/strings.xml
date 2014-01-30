@@ -2,7 +2,17 @@
 <resources>
 
     <string name="app_name">Brutto_Netto_Rechner</string>
-    <string name="action_settings">Settings</string>
-    <string name="hello_world">Hello world!</string>
+    
+	<!--  Formulartexte -->
+    <string name="txt_anweisung">Geben Sie einen Brutto- oder Nettobetrag ein und lassen Sie sich die Umsatzsteuer errechnen:</string>
+	<string name="txt_berechnen">Berechnen</string>
+	<string name="txt_netto">Netto</string>
+	<string name="txt_brutto">Brutto</string>
+	<string name="txt_nettobetrag">Nettobetrag:</string>
+	<string name="txt_umsatzsteuer">Umsatzsteuer:</string>
+	<string name="txt_bruttobetrag">Bruttobetrag:</string>
+	
+	<!-- Menüeintra -->
+	<string name="mnu_ende">Beenden</string>
 
 </resources>

@@ -17,14 +17,19 @@ public final class R {
          screen margins) for sw720dp devices (e.g. 10" tablets) in landscape here.
     
          */
-        public static final int activity_horizontal_margin=0x7f040000;
-        public static final int activity_vertical_margin=0x7f040001;
+        public static final int activity_horizontal_margin=0x7f050000;
+        public static final int activity_vertical_margin=0x7f050001;
     }
     public static final class drawable {
         public static final int ic_launcher=0x7f020000;
     }
     public static final class id {
-        public static final int action_settings=0x7f080000;
+        public static final int action_settings=0x7f080005;
+        public static final int edt_betrag=0x7f080000;
+        public static final int rb_art_brutto=0x7f080003;
+        public static final int rb_art_netto=0x7f080002;
+        public static final int rg_art=0x7f080001;
+        public static final int sp_umsatzsteuer=0x7f080004;
     }
     public static final class layout {
         public static final int activity_main=0x7f030000;
@@ -33,9 +38,17 @@ public final class R {
         public static final int main=0x7f070000;
     }
     public static final class string {
-        public static final int action_settings=0x7f050001;
-        public static final int app_name=0x7f050000;
-        public static final int hello_world=0x7f050002;
+        public static final int action_settings=0x7f040003;
+        public static final int app_name=0x7f040002;
+        public static final int txt_anweisung=0x7f040004;
+        public static final int txt_berechnen=0x7f040005;
+        public static final int txt_brutto=0x7f040007;
+        public static final int txt_bruttobetrag=0x7f04000a;
+        public static final int txt_netto=0x7f040006;
+        public static final int txt_nettobetrag=0x7f040008;
+        public static final int txt_umsatzsteuer=0x7f040009;
+        public static final int ust_anzeige=0x7f040000;
+        public static final int ust_werte=0x7f040001;
     }
     public static final class style {
         /** 
