@@ -1,8 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <string name="app_name">Amando</string>
-    <string name="action_settings">Settings</string>
-    <string name="hello_world">Hello world!</string>
+    <string name="app_name">Amando4</string>
+    <string name="action_settings">Action Settings</string>
 
+    <!-- Startseite -->
+    <string name="txt_startseiteanzeigen_intro">Sie haben folgende Optionen zur Verfügung:</string>
+    <string name="startseite_titel">Amado-Startseite</string>
+    
+    <!-- Optionsmenue -->
+    <string name="men_hilfe_anzeige">Hilfe</string>
+    <string name="men_einstellungen_bearbeiten">Einstelungen</string>
+    <string name="men_amando_beenden">Beenden</string>
+    
+    <!-- Schaltflächentext -->
+    <string name="sf_position_senden">Position senden</string>
+    <string name="sf_position_senden_beenden">Senden beenden</string>
+    <string name="sf_geokontakte_verwalten"> Geokontakte verwalten</string>
+    <string name="sf_karte_anzeigen">Karte anzeigen</string>
+    <string name="sf_simultation">Simulation starten</string>    
 </resources>

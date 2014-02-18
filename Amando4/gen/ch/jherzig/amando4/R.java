@@ -35,7 +35,22 @@ public final class R {
     public static final class string {
         public static final int action_settings=0x7f050001;
         public static final int app_name=0x7f050000;
-        public static final int hello_world=0x7f050002;
+        public static final int men_amando_beenden=0x7f050006;
+        public static final int men_einstellungen_bearbeiten=0x7f050005;
+        /**  Optionsmenue 
+         */
+        public static final int men_hilfe_anzeige=0x7f050004;
+        public static final int sf_geokontakte_verwalten=0x7f050009;
+        public static final int sf_karte_anzeigen=0x7f05000a;
+        /**  Schaltflächentext 
+         */
+        public static final int sf_position_senden=0x7f050007;
+        public static final int sf_position_senden_beenden=0x7f050008;
+        public static final int sf_simultation=0x7f05000b;
+        public static final int startseite_titel=0x7f050003;
+        /**  Startseite 
+         */
+        public static final int txt_startseiteanzeigen_intro=0x7f050002;
     }
     public static final class style {
         /** 
