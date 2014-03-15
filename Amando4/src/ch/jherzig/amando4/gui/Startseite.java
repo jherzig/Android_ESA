@@ -4,6 +4,7 @@ import ch.jherzig.amando4.R;
 import android.os.Bundle;
 import android.app.Activity;
 import android.content.Context;
+import android.content.Intent;
 import android.view.ContextMenu;
 import android.view.Menu;
 import android.view.MenuItem;
@@ -19,6 +20,7 @@ public class Startseite extends Activity {
 		setContentView(R.layout.startseite);
 		setTitle(R.string.startseite_titel);
 		registerForContextMenu(findViewById(R.id.sf_start_geokontakte));
+		registerForContextMenu(findViewById(R.id.sf_position_senden));
 	}
 
 
@@ -52,13 +54,16 @@ public class Startseite extends Activity {
 		if(v.getId() == R.id.sf_start_geokontakte){
 			getMenuInflater().inflate(R.menu.startseite_contextmenue, menu);
 		}
+		if(v.getId() == R.id.sf_position_senden){
+			shortToast("onCreateContextMenu sf_position_senden");
+		}
 		super.onCreateContextMenu(menu, v, menuInfo);
 	}
 	
 	public boolean onContextItemSelected(MenuItem item) {
 		if(item.getItemId()== R.id.opt_geokontakt_verwalten_hilfe){
-			// TODO Hilfe Setite aufrufen
-			shortToast("// TODO Hilfe Setite aufrufen");
+			final Intent intent = new Intent(this,HilfeAnzeigen.class);
+			startActivity(intent);
 			return true;
 		}
 		return super.onContextItemSelected(item);

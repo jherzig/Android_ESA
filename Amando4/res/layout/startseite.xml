@@ -1,11 +1,49 @@
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:paddingBottom="@dimen/activity_vertical_margin"
-    android:paddingLeft="@dimen/activity_horizontal_margin"
-    android:paddingRight="@dimen/activity_horizontal_margin"
-    android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context=".Startseite" >
+    android:layout_height="match_parent" >
 
-</RelativeLayout>
+    <TextView
+        android:id="@+id/TextStyleUberschrieft"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/schwarz"        
+        android:text="@string/txt_startseiteanzeigen_intro" />
+
+    <Button
+        android:id="@+id/sf_position_senden"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/sf_position_senden"
+        android:onClick="onClickPositionSenden" />
+
+    <Button
+        android:id="@+id/sf_start_geokontakte"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/sf_geokontakte_verwalten"
+        android:onClick="onClickGeokontakteVerwalten" />
+    
+    <Button
+        android:id="@+id/sf_karte_anzeigen"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/sf_karte_anzeigen"
+        android:onClick="onClickKarteAnzeigen" />
+    
+    <Button
+        android:id="@+id/sf_simultation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/sf_simultation"
+        android:onClick="onClickSimulationStarten" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/amando_logo"
+        android:contentDescription="AMADO" />
+
+</LinearLayout>

@@ -9,19 +9,22 @@
         android:targetSdkVersion="19" />
 
     <application
-        android:allowBackup="true"
+        android:debuggable="true"
         android:icon="@drawable/ic_launcher"
         android:label="@string/app_name"
-        android:theme="@style/AmandoTheme" 
-        android:debuggable="true">
+        android:theme="@style/AmandoTheme" >
         <activity
-            android:name="ch.jherzig.amando4.Startseite"
+            android:name="ch.jherzig.amando4.gui.Startseite"
             android:label="@string/app_name" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+        </activity>
+        <activity
+            android:name="ch.jherzig.amando4.gui.HilfeAnzeigen"
+            android:label="@string/title_activity_hilfe_anzeigen" >
         </activity>
     </application>
 

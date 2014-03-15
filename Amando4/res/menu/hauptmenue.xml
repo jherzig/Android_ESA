@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/opt_einstellungenBearbeiten"
+        android:icon="@android:drawable/ic_menu_preferences"
+        android:title="@string/men_einstellungen_bearbeiten">
+    </item>
+    <item
+        android:id="@+id/opt_hilfe"
+        android:icon="@android:drawable/ic_menu_help"
+        android:title="@string/men_hilfe_anzeige">
+    </item>
+    <item
+        android:id="@+id/opt_amandoBeenden"
+        android:icon="@android:drawable/ic_menu_close_clear_cancel"
+        android:title="@string/men_amando_beenden">
+    </item>
+</menu>

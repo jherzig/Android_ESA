@@ -1,0 +1,64 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/TextStyleUberschrieft"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/txt_startseiteanzeigen_intro"
+        android:textColor="@color/schwarz" />
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal" >
+
+        <TableRow>
+
+            <Button
+                android:id="@+id/sf_position_senden"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="onClickPositionSenden"
+                android:text="@string/sf_position_senden" />
+
+            <Button
+                android:id="@+id/sf_start_geokontakte"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="onClickGeokontakteVerwalten"
+                android:text="@string/sf_geokontakte_verwalten" />
+        </TableRow>
+
+        <TableRow>
+
+            <Button
+                android:id="@+id/sf_karte_anzeigen"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="onClickKarteAnzeigen"
+                android:text="@string/sf_karte_anzeigen" />
+
+            <Button
+                android:id="@+id/sf_simultation"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="onClickSimulationStarten"
+                android:text="@string/sf_simultation" />
+        </TableRow>
+    </TableLayout>
+
+    <TableRow>
+    </TableRow>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_horizontal"
+        android:contentDescription="AMADO"
+        android:src="@drawable/amando_logo" />
+
+</LinearLayout>
