@@ -75,8 +75,8 @@ public class Startseite extends Activity {
 	}
 	
 	public void onClickGeokontakteVerwalten(final View sfView) {
-		shortToast("// TODO onCklickPositionSenden");
-		// TODO onCklickPositionSenden
+		Intent i = new Intent(this,GeoKontakteAuflisten.class);
+		startActivity(i);
 	}
 	
 	public void onClickKarteAnzeigen(final View sfView) {

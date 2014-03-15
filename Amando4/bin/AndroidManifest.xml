@@ -26,6 +26,10 @@
             android:name="ch.jherzig.amando4.gui.HilfeAnzeigen"
             android:label="@string/title_activity_hilfe_anzeigen" >
         </activity>
+        <activity
+            android:name="ch.jherzig.amando4.gui.GeoKontakteAuflisten"
+            android:label="@string/title_activity_geo_kontakte_auflisten" >
+        </activity>
     </application>
 
 </manifest>
