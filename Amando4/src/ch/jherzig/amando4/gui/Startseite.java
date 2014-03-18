@@ -35,10 +35,10 @@ public class Startseite extends Activity {
 	public boolean onOptionsItemSelected(MenuItem item) {
 		switch (item.getItemId()) {
 		case R.id.opt_einstellungenBearbeiten:
-			//TODO
+			//TODO onOptionsItemSelected R.id.opt_einstellungenBearbeiten:
 			return true;
 		case R.id.opt_hilfe:
-			//TODO
+			//TODO onOptionsItemSelected R.id.opt_hilfe
 			return true;
 		case R.id.opt_amandoBeenden:
 			finish();
