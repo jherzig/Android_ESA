@@ -9,16 +9,21 @@ import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
 import android.widget.Spinner;
-import android.widget.TextView;
 import android.widget.Toast;
+import android.app.Activity;
 import android.app.ListActivity;
 import android.content.Context;
+import android.content.Intent;
 
 public class GeoKontakteAuflisten extends ListActivity {
 
 	private String[] NAME = new String[5];
-	private ArrayAdapter<String> mKontaktAdapter; 
+	private ArrayAdapter<String> mKontaktAdapter;
 
+	/** Parameter name fuer Intent Bundle. */
+	static final String SELECT_KONTAKT = "SELECT_KONTAKT";
+	/** Parametername fuer Intent Bundle. */
+	static final String IN_PARAM_KONTAKT_ID = "KONTAKT_ID";
 
 	private void initialisiereNamen() {
 		NAME[0] = "Meyer Philiph";
@@ -44,15 +49,14 @@ public class GeoKontakteAuflisten extends ListActivity {
 		setListAdapter(mKontaktAdapter);
 	}
 
-	
 	/**
 	 * 
 	 */
 	private AdapterView.OnItemSelectedListener mSpinnerItemAuswahlListener = new AdapterView.OnItemSelectedListener() {
 
 		@Override
-		public void onItemSelected(AdapterView<?> arg0, View arg1, int position,
-				long id) {
+		public void onItemSelected(AdapterView<?> arg0, View arg1,
+				int position, long id) {
 			switch (position) {
 			case 0: // Standard
 				initialisiereNamen();
@@ -67,14 +71,15 @@ public class GeoKontakteAuflisten extends ListActivity {
 				break;
 			}
 		}
+
 		@Override
 		public void onNothingSelected(AdapterView<?> arg0) {
 			// TODO Auto-generated method stub
-			
+
 		}
-		
+
 	};
-	
+
 	private void shortToast(String text) {
 		Context context = getApplicationContext();
 		int duration = Toast.LENGTH_SHORT;
@@ -83,11 +88,14 @@ public class GeoKontakteAuflisten extends ListActivity {
 		toast.show();
 	}
 
-
 	protected void onListItemClick(ListView l, View v, int position, long id) {
-		final Toast hinweis = Toast.makeText(this,
-				"Element " + ((TextView) v).getText(), Toast.LENGTH_LONG);
-		hinweis.show();
+		
+		super.onListItemClick(l, v, position, id);
+		
+		final Intent intent = new Intent();
+		intent.putExtra(IN_PARAM_KONTAKT_ID, id);
+		setResult(Activity.RESULT_OK, intent);
+		finish();
 	}
 
 	@Override

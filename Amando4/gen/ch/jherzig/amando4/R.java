@@ -38,24 +38,34 @@ public final class R {
         public static final int pfeil=0x7f020004;
     }
     public static final class id {
-        public static final int TextStyleUberschrieft=0x7f0c0002;
-        public static final int action_settings=0x7f0c0008;
-        public static final int opt_amandoBeenden=0x7f0c000b;
-        public static final int opt_einstellungenBearbeiten=0x7f0c0009;
-        public static final int opt_geokontakt_verwalten_hilfe=0x7f0c000c;
-        public static final int opt_hilfe=0x7f0c000a;
-        public static final int sf_Nickname=0x7f0c0007;
-        public static final int sf_karte_anzeigen=0x7f0c0005;
-        public static final int sf_position_senden=0x7f0c0003;
-        public static final int sf_simultation=0x7f0c0006;
-        public static final int sf_start_geokontakte=0x7f0c0004;
+        public static final int TextStyleUberschrieft=0x7f0c000c;
+        public static final int action_settings=0x7f0c0011;
+        public static final int opt_amandoBeenden=0x7f0c0014;
+        public static final int opt_einstellungenBearbeiten=0x7f0c0012;
+        public static final int opt_geokontakt_verwalten_hilfe=0x7f0c0015;
+        public static final int opt_hilfe=0x7f0c0013;
+        public static final int positionNachverfolgen=0x7f0c000a;
+        public static final int sf_Nickname=0x7f0c0010;
+        public static final int sf_karte_anzeigen=0x7f0c000e;
+        public static final int sf_position_senden=0x7f0c000b;
+        public static final int sf_simultation=0x7f0c000f;
+        public static final int sf_start_geokontakte=0x7f0c000d;
         public static final int sp_sortierung=0x7f0c0000;
+        public static final int tx_letzte_position=0x7f0c0009;
+        public static final int tx_letzte_position_label=0x7f0c0008;
+        public static final int tx_name=0x7f0c0003;
+        public static final int tx_name_label=0x7f0c0002;
+        public static final int tx_stichwort=0x7f0c0007;
+        public static final int tx_stichwort_label=0x7f0c0006;
+        public static final int tx_telefon=0x7f0c0005;
+        public static final int tx_telefon_label=0x7f0c0004;
         public static final int webview=0x7f0c0001;
     }
     public static final class layout {
         public static final int geokontakte_auflisten=0x7f030000;
         public static final int hilfe_anzeigen=0x7f030001;
-        public static final int startseite=0x7f030002;
+        public static final int position_senden=0x7f030002;
+        public static final int startseite=0x7f030003;
     }
     public static final class menu {
         public static final int geo_kontakte_auflisten=0x7f0b0000;
@@ -86,9 +96,9 @@ public final class R {
         public static final int sf_simultation=0x7f09000b;
         /**  Title Activity 
          */
-        public static final int startseite_titel=0x7f090016;
-        public static final int title_activity_geo_kontakte_auflisten=0x7f090018;
-        public static final int title_activity_hilfe_anzeigen=0x7f090017;
+        public static final int startseite_titel=0x7f09001e;
+        public static final int title_activity_geo_kontakte_auflisten=0x7f090020;
+        public static final int title_activity_hilfe_anzeigen=0x7f09001f;
         /**  Einstellungen 
          */
         public static final int txt_einstell_cat_title_allg=0x7f09000d;
@@ -100,9 +110,21 @@ public final class R {
         public static final int txt_einstell_serverort=0x7f090010;
         public static final int txt_einstell_serverort_default=0x7f090012;
         public static final int txt_einstell_serverort_text=0x7f090011;
+        public static final int txt_geokontakt_datum=0x7f09001a;
+        public static final int txt_geokontakt_letzte_position=0x7f090018;
+        /**  Geokontakt anzeigen 
+         */
+        public static final int txt_geokontakt_name=0x7f090016;
+        public static final int txt_geokontakt_stichwort=0x7f090019;
+        public static final int txt_geokontakt_telefonnummer=0x7f090017;
         /**  Activity_geo_kontakte_auflisten 
          */
         public static final int txt_geokontat_auflisten_keineDaten=0x7f090003;
+        public static final int txt_position_aktualisieren=0x7f09001d;
+        public static final int txt_position_senden_intro=0x7f09001c;
+        /**  Position senden 
+         */
+        public static final int txt_position_senden_titel=0x7f09001b;
         /**  Startseite 
          */
         public static final int txt_startseiteanzeigen_intro=0x7f090002;

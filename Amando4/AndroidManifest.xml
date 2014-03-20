@@ -31,6 +31,7 @@
             android:label="@string/title_activity_geo_kontakte_auflisten" >
         </activity>
         <activity android:name="ch.jherzig.amando4.gui.EinstellungenBearbeiten" />  
+        <activity android:name="ch.jherzig.amando4.gui.Position_senden" />  
     </application>
 
 </manifest>

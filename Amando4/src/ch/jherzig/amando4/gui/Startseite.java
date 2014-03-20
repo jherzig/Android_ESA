@@ -2,7 +2,6 @@ package ch.jherzig.amando4.gui;
 
 import ch.jherzig.amando4.R;
 import android.os.Bundle;
-import android.preference.MultiSelectListPreference;
 import android.preference.PreferenceManager;
 import android.app.Activity;
 import android.content.Context;
@@ -73,8 +72,8 @@ public class Startseite extends Activity {
 	}
 
 	public void onClickPositionSenden(final View sfView) {
-		shortToast("// TODO onCklickPositionSenden");
-		// TODO onCklickPositionSenden
+		Intent i = new Intent(this, Position_senden.class);
+		startActivity(i);
 	}
 
 	public void onClickGeokontakteVerwalten(final View sfView) {

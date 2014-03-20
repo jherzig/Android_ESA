@@ -22,7 +22,6 @@
     <string name="sf_simultation">Simulation starten</string>
     <string name="sf_nickname">Nickname Anzeigen</string>
 
-
     <!-- Einstellungen -->
     <string name="txt_einstell_cat_title_allg">Allgemain</string>
     <string name="txt_einstell_nickname">Nickname</string>
@@ -33,6 +32,18 @@
     <string name="txt_einstell_cat_title_position">Position</string>
     <string name="txt_einstell_gps_min_zeit">Positionsermittlung (Zeit)</string>
     <string name="txt_einstell_gps_min_dist">Positionsermittlung (Distanz)</string>
+
+    <!-- Geokontakt anzeigen -->
+    <string name="txt_geokontakt_name">Name:</string>
+    <string name="txt_geokontakt_telefonnummer">Telefonnummer:</string>
+    <string name="txt_geokontakt_letzte_position">Letzte Position:</string>
+    <string name="txt_geokontakt_stichwort">Stichwort:</string>
+    <string name="txt_geokontakt_datum">Datum:</string>
+
+    <!-- Position senden -->
+    <string name="txt_position_senden_titel">Position Senden</string>
+    <string name="txt_position_senden_intro">Senden Sie ihre Position an einen Geokontakt</string>
+    <string name="txt_position_aktualisieren">Eigene Position aktualisieren</string>
 
     <!-- Title Activity -->
     <string name="startseite_titel">Amado-Startseite</string>
