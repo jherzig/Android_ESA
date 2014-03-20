@@ -4,13 +4,10 @@ import java.io.IOException;
 import java.io.InputStream;
 
 import ch.jherzig.amando4.R;
-import ch.jherzig.amando4.R.layout;
-import ch.jherzig.amando4.R.menu;
 import android.os.Bundle;
 import android.annotation.SuppressLint;
 import android.app.Activity;
 import android.content.Context;
-import android.view.Menu;
 import android.webkit.WebView;
 
 public class HilfeAnzeigen extends Activity {

@@ -6,10 +6,9 @@
 
     <!-- Startseite -->
     <string name="txt_startseiteanzeigen_intro">Sie haben folgende Optionen zur Verfügung:</string>
-    <!--  Activity_geo_kontakte_auflisten -->
+    <!-- Activity_geo_kontakte_auflisten -->
     <string name="txt_geokontat_auflisten_keineDaten">Es wurden keine Daten gefunden:</string>
-    
-    
+
     <!-- Optionsmenue -->
     <string name="men_hilfe_anzeige">Hilfe</string>
     <string name="men_einstellungen_bearbeiten">Einstelungen</string>
@@ -21,7 +20,20 @@
     <string name="sf_geokontakte_verwalten"> Geokontakte verwalten</string>
     <string name="sf_karte_anzeigen">Karte anzeigen</string>
     <string name="sf_simultation">Simulation starten</string>
-    
+    <string name="sf_nickname">Nickname Anzeigen</string>
+
+
+    <!-- Einstellungen -->
+    <string name="txt_einstell_cat_title_allg">Allgemain</string>
+    <string name="txt_einstell_nickname">Nickname</string>
+    <string name="txt_einstell_cat_title_server">Server</string>
+    <string name="txt_einstell_serverort">Ort des Servers</string>
+    <string name="txt_einstell_serverort_text">\'Lokal\': lokale Installation\n\'Extern\': Demo-Servre</string>
+    <string name="txt_einstell_serverort_default">Extern</string>
+    <string name="txt_einstell_cat_title_position">Position</string>
+    <string name="txt_einstell_gps_min_zeit">Positionsermittlung (Zeit)</string>
+    <string name="txt_einstell_gps_min_dist">Positionsermittlung (Distanz)</string>
+
     <!-- Title Activity -->
     <string name="startseite_titel">Amado-Startseite</string>
     <string name="title_activity_hilfe_anzeigen">HilfeAnzeigen</string>

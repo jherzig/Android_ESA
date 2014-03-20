@@ -38,6 +38,13 @@
         android:layout_height="wrap_content"
         android:text="@string/sf_simultation"
         android:onClick="onClickSimulationStarten" />
+    
+        <Button
+        android:id="@+id/sf_Nickname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/sf_nickname"
+        android:onClick="onClickNicknameAnzeigen" />
 
     <ImageView
         android:layout_width="match_parent"

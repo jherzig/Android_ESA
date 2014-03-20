@@ -45,6 +45,9 @@ public class GeoKontakteAuflisten extends ListActivity {
 	}
 
 	
+	/**
+	 * 
+	 */
 	private AdapterView.OnItemSelectedListener mSpinnerItemAuswahlListener = new AdapterView.OnItemSelectedListener() {
 
 		@Override
