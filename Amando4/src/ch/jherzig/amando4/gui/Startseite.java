@@ -71,6 +71,9 @@ public class Startseite extends Activity {
 		return super.onContextItemSelected(item);
 	}
 
+	/**
+	 * @param sfView
+	 */
 	public void onClickPositionSenden(final View sfView) {
 		Intent i = new Intent(this, Position_senden.class);
 		startActivity(i);
