@@ -49,5 +49,7 @@
     <string name="startseite_titel">Amado-Startseite</string>
     <string name="title_activity_hilfe_anzeigen">HilfeAnzeigen</string>
     <string name="title_activity_geo_kontakte_auflisten">GeoKontakteAuflisten</string>
+    <string name="title_activity_karte_anzeigen">KarteAnzeigen</string>
+    <string name="hello_world">Hello world!</string>
 
 </resources>

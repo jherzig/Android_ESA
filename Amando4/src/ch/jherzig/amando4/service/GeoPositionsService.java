@@ -4,6 +4,7 @@ import java.util.List;
 
 import ch.jherzig.amando4.kontakt.TelefonnummernHelfer;
 
+import android.R.bool;
 import android.app.Service;
 import android.content.Intent;
 import android.os.Binder;
@@ -30,8 +31,13 @@ public class GeoPositionsService extends Service {
 
 	@Override
 	public IBinder onBind(Intent intent) {
-		// TODO Auto-generated method stub
-		return null;
+		return mGpsBinder;
+	}
+	
+	@Override
+	public boolean onUnbind(Intent intent) {
+		mKarteAnzeigenCallbackHandler = null;
+		return super.onUnbind(intent);
 	}
 
 	public class GeoPositionsServiceBinder extends Binder {

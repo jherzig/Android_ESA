@@ -64,15 +64,17 @@ public final class R {
     public static final class layout {
         public static final int geokontakte_auflisten=0x7f030000;
         public static final int hilfe_anzeigen=0x7f030001;
-        public static final int position_senden=0x7f030002;
-        public static final int startseite=0x7f030003;
+        public static final int karte_anzeigen=0x7f030002;
+        public static final int position_senden=0x7f030003;
+        public static final int startseite=0x7f030004;
     }
     public static final class menu {
         public static final int geo_kontakte_auflisten=0x7f0b0000;
         public static final int hauptmenue=0x7f0b0001;
         public static final int hilfe_anzeigen=0x7f0b0002;
-        public static final int startseite=0x7f0b0003;
-        public static final int startseite_contextmenue=0x7f0b0004;
+        public static final int karte_anzeigen=0x7f0b0003;
+        public static final int startseite=0x7f0b0004;
+        public static final int startseite_contextmenue=0x7f0b0005;
     }
     public static final class raw {
         public static final int hilfe_komplett=0x7f050000;
@@ -81,6 +83,7 @@ public final class R {
     public static final class string {
         public static final int action_settings=0x7f090001;
         public static final int app_name=0x7f090000;
+        public static final int hello_world=0x7f090022;
         public static final int men_amando_beenden=0x7f090006;
         public static final int men_einstellungen_bearbeiten=0x7f090005;
         /**  Optionsmenue 
@@ -99,6 +102,7 @@ public final class R {
         public static final int startseite_titel=0x7f09001e;
         public static final int title_activity_geo_kontakte_auflisten=0x7f090020;
         public static final int title_activity_hilfe_anzeigen=0x7f09001f;
+        public static final int title_activity_karte_anzeigen=0x7f090021;
         /**  Einstellungen 
          */
         public static final int txt_einstell_cat_title_allg=0x7f09000d;

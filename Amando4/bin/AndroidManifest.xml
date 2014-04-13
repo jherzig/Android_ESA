@@ -30,8 +30,12 @@
             android:name="ch.jherzig.amando4.gui.GeoKontakteAuflisten"
             android:label="@string/title_activity_geo_kontakte_auflisten" >
         </activity>
-        <activity android:name="ch.jherzig.amando4.gui.EinstellungenBearbeiten" />  
-        <activity android:name="ch.jherzig.amando4.gui.Position_senden" />  
+        <activity android:name="ch.jherzig.amando4.gui.EinstellungenBearbeiten" />
+        <activity android:name="ch.jherzig.amando4.gui.Position_senden" />
+        <activity
+            android:name="ch.jherzig.amando4.gui.KarteAnzeigen"
+            android:label="@string/title_activity_karte_anzeigen" >
+        </activity>
     </application>
 
 </manifest>
